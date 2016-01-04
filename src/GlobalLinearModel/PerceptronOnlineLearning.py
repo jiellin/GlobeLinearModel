@@ -12,7 +12,7 @@ import sys
 import time
 import random
 from FeatureVectorWeightModel import FeatureVectorWeight
-from common import read_data, LABEL_SET
+from utils.common import read_data, LABEL_SET
 
 class Perceptron(object):
     def __init__(self, train_data_path, feature_template_list, model_params_path):

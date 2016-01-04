@@ -6,10 +6,10 @@ Created on Dec 27, 2015
 '''
 
 import sys
-from PerceptronOnlineLearning import Perceptron
-from PosTagger import PosTagger
-from common import read_data, PARAM_PATH, TEST_DATA_PATH, OUTPUT_PATH
-from gen_features import features
+from GlobalLinearModel.PerceptronOnlineLearning import Perceptron
+from GlobalLinearModel.PosTagger import PosTagger
+from utils.common import read_data, PARAM_PATH, TEST_DATA_PATH, OUTPUT_PATH
+from GlobalLinearModel.gen_features import features
 
 if __name__ == '__main__':
     params = PARAM_PATH
