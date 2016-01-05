@@ -9,7 +9,7 @@ Created on Dec 27, 2015
 
 import sys
 from FeatureVectorWeightModel import FeatureVectorWeight
-from common import read_data, LABEL_SET
+from utils.common import read_data, LABEL_SET
 
 class PosTagger(object):
     def __init__(self, test_data_path, feature_template_list, feature_weight_vector, output_path):

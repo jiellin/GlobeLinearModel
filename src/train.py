@@ -6,9 +6,9 @@ Created on Dec 27, 2015
 '''
 
 import sys
-from PerceptronOnlineLearning import Perceptron
-from common import read_data, TRAIN_DATA_PATH, PARAM_PATH, ITER_NUM, BATCH_NUM
-from gen_features import features
+from GlobalLinearModel.PerceptronOnlineLearning import Perceptron
+from utils.common import read_data, TRAIN_DATA_PATH, PARAM_PATH, ITER_NUM, BATCH_NUM
+from GlobalLinearModel.gen_features import features
 
 if __name__ == '__main__':
     params = PARAM_PATH
